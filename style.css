@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+body {
+  background-image: url(./poker-table.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  flex-wrap: wrap;
+}
+.cardStyle {
+  height: 290px;
+  width: 170px;
+}
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+.card1-mainNum,
+.card2-mainNum {
+  font-size: 90px;
+  font-weight: bold;
+  justify-self: center;
+  align-items: center;
+}
+.card1-num1,
+.card2-num1 {
+  align-self: flex-end;
+  font-size: 30px;
+  padding: 5px;
+}
+.card2-num3,
+.card1-num3 {
+  align-self: flex-start;
+  font-size: 30px;
+  padding: 5px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  padding: 20px;
+
+  border-radius: 20px;
+}
+button {
+  background: orange;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+button:hover {
+  background-color: rgb(196, 127, 0);
+}
+
+h1 {
+  padding-top: 50px;
+  color: white;
+  font-weight: normal;
+}
+.sum {
+  color: white;
+}
+.words {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+}
+.hidden {
+  display: none;
+}
